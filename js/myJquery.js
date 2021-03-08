@@ -3,5 +3,7 @@ $('.box').mousemove(function (event) {
      var upX = event.clientX;
      var upY = event.clientY;
      console.log(upX, upY);
-     $('.sunBox').css("height",event.clientY);
+     $('.sunBox').css("height",upY);
+     $('.bar').css("top",upY-5);
+
  });
