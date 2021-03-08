@@ -1,9 +1,27 @@
-.mainBox {
-    background: rgb(23, 243, 243);
+.rainBox {
+    background-image: url(../images/rain.gif);
+    width: 268px;
+    height: 480px;
+    position: absolute;
+    z-index: 1;
+}
+
+.sunBox {
+    background-image: url(../images/sun.jpg);
+    width: 268px;
+    height: 480px;
+    position: absolute;
+    z-index: 2;
+}
+
+.box {
+    background-color: aqua;
+    width: 268px;
+    height: 480px;
+    margin: auto;
 }
 
 body {
-
     width: 100%;
     height: 100%;
     background-color: coral;
